@@ -1,3 +1,5 @@
+# Contents copied from .hgignore
+
 # C/C-Sharp Files
 *.ncb
 *.nlb
@@ -9,17 +11,30 @@
 *.vbw
 *.pdb
 *.log
-*.Log
-*.LOG
 
 # Python Files
 *.pyc
 
-# Project Files
+# .NET Files
+*.dep
+*.aps
+*.vbw
 *.suo
+*.obj
+*.ncb
+*.plg
+*.bsc
+*.ilk 
+*.exp
+*.sbr
+*.opt
+*.pdb
+*.idb
+*.pch
+*.res
 *.user
 *.sln.cache
-_ReSharper.*
+./Resharp*
 
 # Build and Debug Files
 build/*
@@ -33,9 +48,8 @@ Obj/*
 OBJ/*
 *.exe
 *.ex_
-*.pdb
 
 # Misc and OS Files
-Desktop.ini             # Directory atttributes in Windows.
-Thumbs.db               # Picture thumbnail cache in Windows 98.
-.DS_Store               # Directory attributes in Mac OS X.
+Desktop.ini
+Thumbs.db
+.DS_Store
